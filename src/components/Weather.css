@@ -1,0 +1,35 @@
+@import "./../pages/index.css";
+
+.Weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Weather__location {
+  margin: 0;
+  margin-bottom: calc(2 * var(--gutter));
+
+  color: var(--secondary-color);
+  font-size: var(--font-size-very-big);
+  font-weight: bold;
+}
+
+.Weather__weather {
+  margin-bottom: var(--gutter);
+
+  text-transform: capitalize;
+  font-size: var(--font-size-big);
+  font-weight: bold;
+}
+
+.Weather__temperature {
+  align-self: flex-start;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0 var(--gutter);
+}
+
+.Weather__weatherImage {
+  margin: 0 var(--gutter);
+}

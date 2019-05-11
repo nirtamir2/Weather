@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -34,3 +35,4 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+/* eslint-enable @typescript-eslint/camelcase */

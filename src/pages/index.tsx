@@ -1,9 +1,10 @@
 import React from "react"
+import App from "../components/App"
+import "./index.css"
 
-const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-  </div>
-)
+function IndexPage(): React.ReactNode {
+  // @ts-ignore
+  return <App />
+}
 
 export default IndexPage

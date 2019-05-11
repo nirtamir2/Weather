@@ -1,0 +1,26 @@
+@import "./../pages/index.css";
+
+.App__Main {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(../images/overlay.png), url(../images/pattern-size1.svg);
+  background-position: top left, center center;
+  background-attachment: fixed, fixed;
+  background-size: auto, cover;
+  background-color: var(--primary-color);
+
+  color: var(--text-primary-color);
+}
+
+.App__NearbyWeather {
+  padding: calc(2 * var(--gutter)) 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

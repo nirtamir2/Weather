@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #4696e5;
+  --secondary-color: #ffffff;
+  --text-primary-color: #d1e5f9;
+  --text-secondary-color: #828282;
+
+  --border-color: #eeeeee;
+
+  --gutter: 1rem;
+
+  --font-size-big: 2rem;
+  --font-size-very-big: 3.25rem;
+
+  --box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  line-height: 1.5em;
+  letter-spacing: -0.015em;
+}
+
+* {
+  box-sizing: border-box;
+}

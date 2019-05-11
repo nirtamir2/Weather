@@ -1,0 +1,50 @@
+@import "./../pages/index.css";
+
+.NearbyWeather {
+  width: 30rem;
+  margin: auto;
+  padding: calc(2 * var(--gutter)) 0;
+  border-bottom: 2px solid var(--border-color);
+
+  display: grid;
+  grid-gap: calc(2 * var(--gutter));
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "img data";
+
+  color: var(--text-secondary-color);
+}
+
+.NearbyWeather:nth-child(2n) {
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "data img";
+}
+
+.NearbyWeather:nth-child(2n) .NearbyWeather__data {
+  grid-column: 0;
+}
+
+.NearbyWeather__location {
+  margin-bottom: var(--gutter);
+
+  font-size: var(--font-size-big);
+  font-weight: normal;
+}
+
+.NearbyWeather__weather {
+  text-transform: capitalize;
+}
+
+.NearbyWeather__temperature {
+  align-self: flex-start;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0 var(--gutter);
+}
+
+.NearbyWeather__weatherImage {
+  grid-area: img;
+  height: 100%;
+
+  box-shadow: var(--box-shadow);
+  border-radius: 50%;
+}
