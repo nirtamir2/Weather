@@ -43,7 +43,8 @@
 
 .NearbyWeather__weatherImage {
   grid-area: img;
-  height: 100%;
+  width: 150px;
+  height: 150px;
 
   box-shadow: var(--box-shadow);
   border-radius: 50%;
