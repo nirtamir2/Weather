@@ -1,5 +1,5 @@
 ## Note:
-For development use create `.env.development` file in the root folder and add GATSBY_OPEN_WEATHER_MAP_API_KEY env variable.
+For development use create `.env.development` file in the root folder and add `GATSBY_OPEN_WEATHER_MAP_API_KEY` env variable.
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
